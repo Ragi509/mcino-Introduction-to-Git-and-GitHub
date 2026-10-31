@@ -1,0 +1,14 @@
+$ git checkout -b bug-fix-typo
+Switched to a new branch 'bug-fix-typo'
+$ git add README.md
+$ git commit -m "Fix description typo in README.md"
+[bug-fix-typo 1955f03] Fix description typo in README.md
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+$ git merge bug-fix-typo
+Updating 22619a6..1955f03
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)

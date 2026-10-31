@@ -1,0 +1,13 @@
+$ git branch -a
+  bug-fix-revert
+  bug-fix-typo
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
+
+$ git branch -vv
+  bug-fix-revert ca8379c [origin/bug-fix-revert] Revert "Temporary modification to README.md"
+  bug-fix-typo   1955f03 [origin/bug-fix-typo] Fix description typo in README.md
+* main           1955f03 [origin/main] Fix description typo in README.md
